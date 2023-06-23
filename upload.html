@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload documents</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        a{
+            float: left;
+            font-size: 20px;
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="bg-light text-center">
+            <a href="./profile.html" >Go To Profile</a>
+            <h4> Upload Documents..</h4>
+        </div>
+
+        <div class="w-70 p-3 container my-5 bg-light" >
+            <div class="col-md-12 text-center">
+                <span class="font-weight-bold float-left">Upload Research Paper</span>
+                <input type="file" id="research-file" hidden="hidden">
+                <button type="button" id="upload-research-btn" class="btn mr-5 btn-dark">Browse..</button>
+                <button type="button" id="remove-research-btn" class="btn mr-5 btn-outline-danger">Remove</button>
+                <span id="research-text" class="mr-5">No file selected.</span>
+                <button type="button" id="submit-research-btn" class="btn btn-primary">Upload</button>
+            </div>
+        </div>
+        <div class="w-70 p-3 container my-5 bg-light">
+            <div class="col-md-12 text-center">
+                <span class="font-weight-bold float-left">Upload Peer Review </span>
+                <input type="file" id="review-file" hidden="hidden">
+                <button type="button" id="upload-review-btn" class="btn mr-5 btn-dark">Browse..</button>
+                <button type="button" id="remove-review-btn" class="btn mr-5 btn-outline-danger">Remove</button>
+                <span class="mr-5" id="review-text">No file selected.</span>
+                <button type="button" id="submit-review-btn" class="btn btn-primary">Upload</button>
+            </div>
+        </div>
+        <div class="w-70 p-3 container my-5 bg-light">
+            <div class="col-md-12 text-center">
+                <span class="font-weight-bold float-left">Upload Abstract </span>
+                <input type="file" id="abstract-file" hidden="hidden">
+                <button type="button" id="upload-abstract-btn" class="btn mr-5 btn-dark">Browse..</button>
+                <button type="button" id="remove-abstract-btn" class="btn mr-5 btn-outline-danger">Remove</button>
+                <span class="mr-5" id="abstract-text">No file selected.</span>
+                <button type="button" id="submit-abstract-btn" class="btn btn-primary">Upload</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./upload.js"></script>
+</body>
+
+</html>

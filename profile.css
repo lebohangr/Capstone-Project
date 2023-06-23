@@ -1,0 +1,56 @@
+body {
+  background-color: whitesmoke;
+  margin-top: 30px;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
+
+
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+.top-task-bar {
+  overflow: hidden;
+  background-color: #0F386C;
+}
+
+.top-task-bar a {
+  text-align: center;
+  color: #e8e8e8;
+  text-decoration: none;
+  float: right;
+  padding: 1rem 1rem;
+  font-size: 1.2em;
+}
+
+.side-bar {
+  background-color: #0F386C;
+  text-align: center;
+  color: white;
+  font-size: 1.4rem;
+  width: max-content;
+  height: 100%;
+}
+
+.side-bar a {
+  color: whitesmoke;
+  display: block;
+  text-decoration: none;
+  padding-bottom: 0.5rem;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  background-color: whitesmoke;
+}
